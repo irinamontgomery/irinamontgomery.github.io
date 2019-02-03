@@ -3,57 +3,109 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Basic Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Basic Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="header clearfix">
-            <h1 class="irina">Irina Montgomery</h1>
-            <nav>
-                <ul>
-                    <li class="about">
-                        <a href="index.html">About</a>
+    <header class="header">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Nav Bar- Need Brand Refence entered-->
+            <h1 class="irina"> Irina Montgomery</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mt-2 mt-lg-0 navbar-right ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact</a>
                     </li>
-                    <li>
-                        <a href="contacts.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                </ul>
-            </nav>
-        </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/irina-montgomery-5237778b/">LinkedIn</a>
+                            <a class="dropdown-item" href="https://github.com/irinamontgomery">Github</a>
+
+                        </div>
+                        <!--navbar-->
+        </nav>
     </header>
 
-    <main class="clearfix">
-        <h1>Portfolio</h1>
-        <section class="photos">
-            <div class="row clearfix">
-                <div class="newbox laptop">
-                    <p>Hangman</p>
+    <main>
+        <div class="container">
+            <div class="photos">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Portfolio</h1>
+                        <section>
+                    </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="images/laptop.jpg" class="img-fluid newbox" alt="portfolio img">
+                        <div class="caption post-content">
+                            <p>Hangman</p>
+                        </div>
+                    </div>
+                    <div class=" col-md-4">
+                        <img src="images/apple.jpg" class="img-fluid newbox" alt="portfolio img">
+                        <div class="caption post-content">
+                            <p>RPG Game</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
 
-                <div class="newbox apple">
-                    <p>RPG Game</p>
+                    </div>
                 </div>
             </div>
-            <div class="row clearfix">
-                <div class="newbox headphones">
-                    <p>Trivia Game</p>
+            <div class=" row">
+                <div class="col-md-4">
+                    <img src="images/headphones.jpg" class="img-fluid newbox" alt="portfolio img">
+                    <div class="caption post-content">
+                        <p>Trivia Game</p>
+                    </div>
                 </div>
-                <div class="newbox facebook">
-                    <p>Rutgers Info Widget</p>
+                <div class="col-md-4">
+                    <img src="images/facebook.jpg" class="img-fluid newbox" alt="portfolio img">
+                    <div class="caption post-content">
+                        <p>Rutgers Info Widget</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
                 </div>
             </div>
-            <div class="row clearfix">
-                <div class="newbox computers">
-                    <p>Rock Paper Scissors</p>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="images/computers.jpg" class="img-fluid newbox" alt="portfolio img">
+                    <div class="caption post-content">
+                        <p>Rock Paper Scissors</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+
                 </div>
             </div>
-
-
+        </div>
         </section>
     </main>
     <footer>Copyright &copy; 2019 Irina Montgomery </footer>

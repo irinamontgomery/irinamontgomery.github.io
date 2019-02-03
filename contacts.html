@@ -3,52 +3,99 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Basic Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Basic Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="header clearfix">
-            <h1 class="irina">Irina Montgomery</h1>
-            <nav>
-                <ul>
-                    <li class="about">
-                        <a href="index.html">About</a>
+    <header class="header">
+
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <!--Nav Bar- Need Brand Refence entered-->
+            <h1 class=" irina">Irina Montgomery</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav mt-2 mt-lg-0 navbar-right ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
                     </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">Contact</a>
                     </li>
-                    <li>
-                        <a href="contacts.html">Contact</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                     </li>
-                </ul>
-            </nav>
-        </div>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/irina-montgomery-5237778b/">LinkedIn</a>
+                            <a class="dropdown-item" href="https://github.com/irinamontgomery">Github</a>
+
+                        </div>
+                        <!--navbar-->
+        </nav>
     </header>
 
     <main>
+        <div class="container">
+            <h1>Contact </h1>
+            <section>
 
-        <h1>Contact</h1>
-        <section>
-            <form action="mailto:irina.montgomery@gmail.com" method="post" enctype="text/plain">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" size="130"><br>
-                <label for="email"> E-mail:</label>
-                <input type="text" id="email" name="Email" size="130"><br>
-                <label for="message">Message:</label>
-                <textarea type="text" id="message" name="message" size="130"></textarea><br><br>
-                <input class="submit" type="submit" value="Submit">
-            </form>
+                <div class="row">
+
+
+                    <div class="col-md-12">
+                        <form id="contact-form" name="contact-form" action="mailto:irina.montgomery@gmail.com" method="POST">
+
+
+                            <div class="row">
+
+
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="name" name="name" class="form-control">
+                                        <label for="name" class="">Name</label>
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required."> <label for="email" class="">E-mail</label>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-info">Send</button>
+                        </form>
+                        </form>
+                    </div>
+                </div>
+        </div>
         </section>
-
     </main>
-
-
-
-
     <footer>Copyright &copy; 2019 Irina Montgomery </footer>
-
 </body>
 
 </html>

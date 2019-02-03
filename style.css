@@ -1,11 +1,11 @@
 html {
-    background: url(images/gravel.png);
     background-repeat: repeat;
     padding: 0px;
     margin: 0;
 }
 
 body {
+    background: url(images/gravel.png);
     width: 100%;
     margin: 0;
     padding: 0;
@@ -13,13 +13,12 @@ body {
 
 header {
     display: block;
-    border-bottom: 2px solid #ccc;
+    border-bottom: 3px solid #ccc;
     color: #777;
     font-size: 18px;
     width: 960px;
     background: #fff;
     width: 100%;
-    height: 100px;
     margin: 0 auto;
 }
 
@@ -29,37 +28,13 @@ header {
     padding: 0px;
 }
 
-nav {
-    display: block;
-}
+
 
 nav ul {
     float: right;
     list-style: none;
     padding: 0;
     margin: 0;
-    line-height: 100px;
-}
-
-nav li {
-    display: inline-block;
-    float: left;
-}
-
-nav li:after {
-    content: "|";
-    padding-left: 14px;
-    padding-right: 16px;
-}
-
-nav li:last-child::after {
-    content: "";
-    padding: 0;
-
-}
-
-label {
-    display: block;
 }
 
 li a {
@@ -67,12 +42,11 @@ li a {
     text-decoration: none;
 }
 
-
 main {
-    clear: both;
     width: 960px;
     height: 100%;
     font-size: 18px;
+    align-content: center;
     color: #777;
     padding: 25px;
     font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -83,22 +57,11 @@ main {
 #irina {
     height: 225px;
     width: 175px;
-    float: left;
-    padding: 25px 25px 25px 0px;
 }
 
 .irina {
     font-size: 28px;
-    float: left;
-    padding: 25px 25px 25px 25px;
-    background: #4aaaa5;
-    color: #ffffff;
-    text-align: center;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-.submit {
-    padding: 5px 25px;
+    padding: 25px;
     background: #4aaaa5;
     color: #ffffff;
     text-align: center;
@@ -108,6 +71,8 @@ main {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #4aaaa5;
+    font-weight: bold;
+
 }
 
 section {
@@ -115,87 +80,23 @@ section {
     padding: 20px 0px 20px 0px
 }
 
-
-#email,
-#name {
-    width: 100%;
-    font-size: 12px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
-#message {
-    height: 150px;
-    width: 100%;
-    font-size: 12px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-}
-
 .newbox {
-    float: left;
-    margin-right: 16px;
     width: 250px;
     height: 175px;
-    position: relative;
+    margin: 30px;
 }
 
-.newbox p {
-    position: absolute;
-    width: 100%;
+.post-content {
+    position: relative;
+    width: 250px;
     bottom: 0px;
     text-align: center;
     background-color: #4aaaa5;
-    margin: 0;
-    padding: 16px;
-    box-sizing: border-box;
+    margin: -54px 30px 12px;
+    padding: 1px;
     color: #fff;
+    font-size: 18px;
 }
-
-.row:first-child {
-    margin-top: 0;
-
-}
-
-.row {
-    margin-top: 16px;
-}
-
-.laptop {
-    background: url(images/laptop.jpg);
-    background-size: cover;
-}
-
-
-.apple {
-    background: url(images/apple.jpg);
-    background-size: cover;
-
-}
-
-.headphones {
-    background: url(images/headphones.jpg);
-    background-size: cover;
-
-
-}
-
-
-.facebook {
-    background: url(images/phone.jpg);
-    background-size: cover;
-
-
-}
-
-
-
-.computers {
-    background: url(images/computers.jpg);
-    background-size: cover;
-}
-
-
 
 footer {
     border-top: 8px solid #4aaaa5;
@@ -206,41 +107,3 @@ footer {
     width: 100%;
     color: #fff;
 }
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-* html .clearfix {
-    zoom: 1;
-}
-
-/* IE6 */
-*:first-child + html .clearfix {
-    zoom: 1;
-}
-
-/* IE7 */
