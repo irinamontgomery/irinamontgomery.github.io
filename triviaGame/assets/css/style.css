@@ -1,0 +1,45 @@
+body {
+    background: url("../images/woody.jpg");
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    color: #2A0D0F;
+    Background: #F4A75D;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.timer {
+    color: #B19C87;
+    font-size: 32px;
+    background: #972435;
+    align-content: center;
+    margin: -35px 150px;
+}
+
+.main {
+    align-content: center;
+}
+
+#start,
+#done {
+    margin: 50px;
+    Width: 200px;
+    background: #F4A75D;
+    color: #2A0D0F;
+    border: 4px solid;
+    align-content: center;
+}
+
+#game,
+#results {
+    color: #2A0D0F;
+    display: none;
+}
