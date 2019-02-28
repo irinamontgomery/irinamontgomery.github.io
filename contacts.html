@@ -4,24 +4,29 @@
 <head>
     <meta charset="UTF-8">
     <title>Basic Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
     <header>
-        <nav>
+        <div class="header clearfix">
             <h1 class="irina">Irina Montgomery</h1>
-            <ul>
-                <li class="about">About</li>
-                <li>|</li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li>|</li>
-                <li><a href="contacts.html">Contact</a></li>
-            </ul>
-        </nav>
-        </nav>
+            <nav>
+                <ul>
+                    <li class="about">
+                        <a href="index.html">About</a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="contacts.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
 
     <main>
 
@@ -33,7 +38,7 @@
                 <label for="email"> E-mail:</label>
                 <input type="text" id="email" name="Email" size="130"><br>
                 <label for="message">Message:</label>
-                <input type="text" id="message" name="message" size="130"><br><br>
+                <textarea type="text" id="message" name="message" size="130"></textarea><br><br>
                 <input class="submit" type="submit" value="Submit">
             </form>
         </section>
@@ -43,7 +48,7 @@
 
 
 
-    <footer></footer>
+    <footer>Copyright &copy; 2019 Irina Montgomery </footer>
 
 </body>
 
