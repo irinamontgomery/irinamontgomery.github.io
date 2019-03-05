@@ -1,0 +1,67 @@
+/*5680E9 blue/purple,
+84CEEB light blue;
+5AB9EA blue,
+C1C8E4 light purple,
+8860D0 purple;*/
+
+header {
+    background-color: #568DE9;
+    text-align: center;
+    color: #84CEEB;
+    font-family: 'Fredericka the Great', cursive;
+    padding: 25px 0px;
+    font-size: 75px;
+    letter-spacing: 10px;
+
+}
+
+body {
+    background-color: #5AB9EA;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #568DE9;
+    text-align: center;
+}
+
+#mybuttons {
+    margin: 20px;
+}
+
+.btn {
+    margin: 5px;
+    background-color: #84CEEB;
+    border: 3px #568DE9 solid;
+    color: #568DE9;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 32px;
+}
+
+#add-movie {
+    margin: 5px;
+    background-color: #84CEEB;
+    border: 3px #C1C8E4 solid;
+    color: #568DE9;
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 32px;
+}
+
+#add-movie:hover {
+    color: black;
+}
+
+#topic-input {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 25px;
+    color: #568DE9;
+    background-color: #84CEEB;
+    border: 3px #C1C8E4 solid;
+    letter-spacing: 10px;
+}
+
+.search-bar {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 32px;
+    color: #C1C8E4
+}
