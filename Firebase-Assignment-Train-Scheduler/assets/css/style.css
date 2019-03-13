@@ -1,0 +1,48 @@
+/*FE938C  TULIP
+E6B89C PALE GOLD
+EAD2AC DESERT SAND
+9CAFB7 PEWTER BLUE
+4281A4 STEEL BLUE
+https://coolors.co/fe938c-e6b89c-ead2ac-9cafb7-4281a4*/
+body {
+    background: #e6a69c;
+    color: #EAD2AC;
+}
+
+.train-schedule {
+    width: 960px;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    background: #E6B89C;
+    color: #EAD2AC;
+}
+
+.panel-heading {
+    background: #4281A4;
+    color: #9CAFB7;
+}
+
+.panel-title {
+    color: #9CAFB7;
+    color: #4281A4;
+}
+
+.panel-warning {
+    background: #9CAFB7;
+    color: #4281A4;
+    text-align: center;
+}
+
+.btn {
+    background: #FFF7E0;
+}
+
+.form-stuff {
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
