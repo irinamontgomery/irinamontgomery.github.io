@@ -1,0 +1,66 @@
+body {
+    background: url(../images/roses.jpg);
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    border-bottom: Solid white 3px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.guy {
+    border: solid white 3px;
+}
+
+.letters {
+    padding: 20px;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    background: #272F18;
+    border: solid white 2px;
+}
+
+.btn.disabled {
+    background: gray;
+}
+
+.score,
+.secret-word {
+    text-align: center;
+}
+
+.transition {
+    opacity: 0;
+    transition: opacity 8s;
+    -moz-transition: opacity 8s;
+    -ms-transition: opacity 8s;
+    -o-transition: opacity 8s;
+    -webkit-transition: opacity 8s;
+}
+
+.fadeIn.transition {
+    opacity: 1;
+    transition: opacity 8s;
+    -moz-transition: opacity 8s;
+    -ms-transition: opacity 8s;
+    -o-transition: opacity 8s;
+    -webkit-transition: opacity 8s;
+}
