@@ -1,0 +1,46 @@
+body {
+    background-image: url("../images/linus.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: #004C5D;
+    border-bottom: 3px solid #E3E1E6;
+}
+
+.randomNumber {
+    text-align: center;
+    font-size: 30px;
+    color: #004C5D;
+    background: #FBA6AC;
+    margin: 10px 0px 10px 0px;
+
+}
+
+.your-score {
+    text-align: center;
+    font-size: 30px;
+    color: #004C5D;
+    background: #FBA6AC;
+    margin: 10px 0px 10px 0px
+}
+
+.wins {
+    text-align: center;
+    font-size: 30px;
+    color: #004C5D;
+    background: #FBA6AC;
+    margin: 10px 0px 10px 0px
+}
+
+.losses {
+    text-align: center;
+    font-size: 30px;
+    color: #004C5D;
+    background: #FBA6AC;
+    margin: 10px 0px 10px 0px
+}
