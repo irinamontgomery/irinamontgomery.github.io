@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>crystal game</title>
+</head>
+
+<body>
+    <header>
+        <h1>Coolest Game Ever</h1>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="click crystal 1 col-3" id='pink'><img src="assets/images/crystal1.jpg" height="200" />
+            </div>
+            <div class="click crystal 2 col-3" id='yellow'><img src="assets/images/crystal2.jpg" height="200" />
+            </div>
+            <div class="click crystal 3 col-3" id='blue'><img src="assets/images/crystal3.jpg" height="200" />
+            </div>
+            <div class="click crystal 4 col-3" id='purple'><img src="assets/images/crystal4.jpg" height="200" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="randomNumber col-6">Target Number: <span id="randomNumber"> 0</span></div>
+            <div class="math your-score col-6">Your Score: <span id="score">0</span></div>
+        </div>
+        <div class="row">
+            <div class="wins col-6">Wins:<span id="wins"> 0</span></div>
+            <div class="losses col-6">Losses:<span id="losses"> 0</span></div>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="assets/javascript/game.js"></script>
+
+</html>
