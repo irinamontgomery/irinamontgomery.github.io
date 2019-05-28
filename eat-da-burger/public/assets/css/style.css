@@ -1,0 +1,31 @@
+html {
+    background-color:gray;
+}
+main{
+    align-content: center;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: blue;
+}
+img {
+    width:25%
+}
+.burgerAvailable {
+background-color: brown;
+padding:5px;
+margin:5px;
+color:White;
+}
+.delete-burger {
+    background-color: black;
+    padding:5px;
+    margin:5px;
+    color: white;
+}
+.addBurger {
+    background-color:orangered;
+    padding:5px;
+    margin:5px;
+    color:white;
+}

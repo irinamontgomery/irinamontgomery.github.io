@@ -1,3 +1,4 @@
+
 CREATE DATABASE Bamazon;
 USE Bamazon;
 
@@ -19,5 +20,6 @@ VALUES ('Nintendo Switch', 'toy', 299.99, 3),
 ('Indoor playhouse', 'toy', 104.99, 0),
 ('kids jeep', 'toy', 200.99, 1),
 ('Fujifilm Instax Camera', 'electronic', 49.99, 10)
+
 
 

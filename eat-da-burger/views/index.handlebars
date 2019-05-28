@@ -1,0 +1,59 @@
+<center>
+<h1>Eat-Da-Burger!</h1>
+
+<main>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col s6">
+                {{#each burgers}}
+                {{#unless this.devoured}}
+                <div>
+                
+                        <button id={{this.id}} class='burgerAvailable'> {{this.burger_name}}</button>
+                 
+                </div>
+                {{/unless}}
+                {{/each}}
+            </div>
+
+            <div class="col s6">
+                 <div class="container">
+      
+      <br>
+
+      <!-- Burger Image -->
+      
+        <div class="row">
+          <img src="assets/images/burger.jpg">
+        </div>
+      
+                <h2>Burgers Eaten</h2>
+                {{#each burgers}}
+                {{#if this.devoured}}
+                <div class='burgerEaten'>
+                    
+                    <div>
+                        {{this.burger_name}}
+                        	<button class="delete-burger" data-id="{{this.id}}">DELETE!</button>
+                    </div>
+                </div>
+                {{/if}}
+                {{/each}}
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+<h2>Add A Burger Option</h2>
+
+<div class="row">
+    <div class="col s12">
+        <form action="/api/burgers" method="POST">
+            <input type="text" id="name" name="burger_name" placeholder="Super amazing burger">
+            <button type="submit" class="addBurger">Add Burger</button>
+        </form>
+    </div>
+</div>
+</center>
