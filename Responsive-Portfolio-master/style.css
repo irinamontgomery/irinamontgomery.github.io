@@ -170,6 +170,36 @@ section {
     background-position: bottom;
 }
 
+.liri {
+    background: url(../images/code.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.friendFinder {
+    background: url(../images/facebook.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.express {
+    background: url(../images/apple.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.project2 {
+    background: url(../images/hunter-haley-424256-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+
+}
+
+.project1 {
+    background: url(images/skilogo.png);
+    background-size: cover;
+    background-position: bottom;
+}
 
 .crystal {
     background: url(images/crystal4.jpg);
